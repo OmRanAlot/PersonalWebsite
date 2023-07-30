@@ -1,0 +1,175 @@
+
+
+/* Nav Bar */
+.nav{
+    background-color: #A1C181;
+    color: #EE6C4D;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#nav{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav:hover{
+    background-color: #619B8A;
+
+}
+
+
+
+
+
+/*  About me */
+#about-me{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 2.5%;
+
+}
+#info{
+    display: flex;
+}
+#about-me-text{
+    font-size: 30px;
+}
+#img-me{
+    width: 400px ;
+    margin-left: 50px;
+    border: solid #233D4D 15px;
+}
+
+/*  Academic */
+#academics{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+    font-size: 40px;
+}
+#grade{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+#grade-text{
+    display: flex;
+    justify-content: center;
+    
+}
+#grade-text h3{
+    font-size: 35px;
+    margin: 5px;
+    text-decoration: underline;
+
+}
+li{
+    font-size: 25px;
+    text-decoration: none;
+}
+#img-aca{
+    width: 500px;
+    margin: 20px;
+    border: solid #233D4D 15px;
+
+}
+
+
+/* Hobby */
+#hobbies{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+    font-size: 40px;
+    
+}
+#hobby{
+    display: flex;
+    justify-content: flex-start;
+
+}
+ol{
+    margin-left: 40px;
+}
+
+#hobby-list li{
+    margin-left: 5%;
+    font-size: 40px;
+
+}
+
+
+#img-hob{
+    width: 700px;
+    margin-left: 100%;
+    border: solid #233D4D 15px;
+
+}
+
+
+/* Projects */
+.projects{
+    margin: 20px;
+}
+#project{
+    display: flex;
+    
+}
+
+#pro-2{
+    text-decoration: none;
+    color: black;
+}
+
+#project-list li{
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+#img-pro{
+    width:1000px;
+    margin: 20px;
+}
+
+/*
+Contact 
+*/
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    width: 200px;
+}
+  
+
+
+
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E0FBFC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
